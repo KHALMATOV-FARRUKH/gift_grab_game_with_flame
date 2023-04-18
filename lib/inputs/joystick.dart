@@ -4,12 +4,12 @@ import 'package:flutter/material.dart';
 
 JoystickComponent joystick = JoystickComponent(
     knob: CircleComponent(
-      radius: 30,
+      radius: 20,
       paint: BasicPalette.red.withAlpha(200).paint(),
     ),
     background: CircleComponent(
-      radius: 100,
+      radius: 60,
       paint: BasicPalette.red.withAlpha(100).paint(),
     ),
-    margin: const EdgeInsets.only(left: 40, bottom: 40),
+    margin: EdgeInsets.only(left: 20, bottom: 20),
 );
